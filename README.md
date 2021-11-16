@@ -20,7 +20,7 @@ A Minimal & Beautiful Gatsby Personal Blog Starter With Nice Glassmorphism UI.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yinkakun/gatsby-starter-glass
+git clone https://github.com/xiyizhou/gatsby-starter-glass.git
 
 # 2. Navigate into repository
 cd gatsby-starter-glass
