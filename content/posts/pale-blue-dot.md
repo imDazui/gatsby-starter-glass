@@ -1,6 +1,7 @@
 ---
 title: Pale Blue Dot
 date: 2021-03-06
+perlink: 56644855931
 tags: [space, earth]
 social_image: '/media/rocket.jpg'
 description: This is a custom description for SEO and Open Graph purposes. If it's not provided, it defaults to auto-generated excerpts of the page content.

@@ -1,6 +1,7 @@
 ---
 title: We Choose to go to the Moon
 date: 2021-01-01
+perlink: 5664489314
 tags: [space, moon]
 social_image: '/media/rocket.jpg'
 description: This is a custom description for SEO and Open Graph purposes. If it's not provided, it defaults to auto-generated excerpts of the page content.

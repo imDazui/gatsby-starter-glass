@@ -1,6 +1,7 @@
 ---
 title: Tough and Competent
 date: 2021-01-02
+perlink: 5664489765
 tags: [space, mission, flight control]
 social_image: '/media/rocket.jpg'
 description: This is a custom description for SEO and Open Graph purposes. If it's not provided, it defaults to auto-generated excerpts of the page content.

@@ -1,6 +1,7 @@
 ---
 title: Why do we even need weapons anyway?
 date: 2021-03-07
+perlink: 56644878133681
 tags: [tv series, stranger things]
 ---
 

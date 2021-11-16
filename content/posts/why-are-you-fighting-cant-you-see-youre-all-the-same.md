@@ -1,5 +1,6 @@
 ---
 title: Why are you fighting? Can’t you see you’re all the same?
+perlink: 56644831457
 date: 2021-08-09
 tags: [rick and morty, tv series]
 ---
