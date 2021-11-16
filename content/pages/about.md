@@ -1,7 +1,7 @@
 ---
 title: About Mee
 template: about-template
-perlink: 5664483657814567
+permalink: 5664483657814567
 profile_image: /media/profile-image.jpg
 ---
 

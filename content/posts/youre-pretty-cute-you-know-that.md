@@ -1,7 +1,7 @@
 ---
 title: You’re pretty cute, you know that?
 date: 2021-07-01
-perlink: 566448789431599522
+permalink: 566448789431599522
 tags: [tv series, stranger things]
 ---
 

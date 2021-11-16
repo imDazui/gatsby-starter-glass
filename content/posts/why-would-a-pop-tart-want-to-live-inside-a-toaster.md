@@ -1,7 +1,7 @@
 ---
 title: why would a Pop-Tart want to live inside a toaster
 date: 2021-03-12
-perlink: 566448784332
+permalink: 566448784332
 tags: [tv series, rick and morty]
 ---
 

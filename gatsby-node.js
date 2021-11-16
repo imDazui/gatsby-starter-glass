@@ -172,7 +172,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Frontmatter {
       title: String
-      perlink: String
+      permalink: String
       description: String
       date: Date @dateformat
       template: String

@@ -1,7 +1,7 @@
 ---
 title: Weddings are basically funerals with cake 1
 date: 2021-09-03
-perlink: 5664483671
+permalink: 5664483671
 tags:
   - rick and morty
   - tv series

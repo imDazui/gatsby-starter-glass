@@ -1,7 +1,7 @@
 ---
 title: Nobody exists on purpose
 date: 2020-09-09
-perlink: 56644844445
+permalink: 56644844445
 tags: [rick and morty, tv series]
 social_image: '/media/rocket.jpg'
 description: This is a custom description for SEO and Open Graph purposes. If it's not provided, it defaults to auto-generated excerpts of the page content.

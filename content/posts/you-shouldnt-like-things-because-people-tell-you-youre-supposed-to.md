@@ -1,6 +1,6 @@
 ---
 title: You shouldn't like things because people tell you you're supposed to.
-perlink: 5664487564389
+permalink: 5664487564389
 date: 2021-02-18
 tags: [tv series, stranger things]
 ---

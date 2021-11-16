@@ -1,6 +1,6 @@
 ---
 title: Nobody normal ever accomplished anything meaningful in this world
-perlink: 5664484445441
+permalink: 5664484445441
 date: 2021-01-21
 tags: [stranger things, tv series]
 social_image: '/media/rocket.jpg'

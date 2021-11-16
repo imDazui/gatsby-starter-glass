@@ -1,7 +1,7 @@
 ---
 title: Symbol of Apollo
 date: 2021-01-03
-perlink: 5664484763
+permalink: 5664484763
 tags: [space, mission]
 social_image: '/media/rocket.jpg'
 description: This is a custom description for SEO and Open Graph purposes. If it's not provided, it defaults to auto-generated excerpts of the page content.
