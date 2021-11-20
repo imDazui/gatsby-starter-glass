@@ -1,27 +1,27 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: `iNote`,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `XiYiZhou`,
+      summary: `四野八荒，毕力遐方`,
     },
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
+    description: `寻求真相，发现价值`,
+    siteUrl: `https://inote.xyz`,
     social: {
-      twitter: `yinkakun`,
+      twitter: `inote_xyz`,
     },
     socialLinks: [
       {
-        name: 'github',
-        url: 'https://github.com',
+        name: '首页',
+        url: 'https://inote.xyz',
       },
       {
-        name: 'twitter',
-        url: 'https://twitter.com',
+        name: '友链',
+        url: 'https://inote.xyz/links/',
       },
       {
-        name: 'instagram',
-        url: 'https://instagram.com',
+        name: '关于',
+        url: 'https://inote.xyz/about',
       },
     ],
   },
@@ -161,5 +161,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "YOUR_GOOGLE_TAGMANAGER_ID",
+        includeInDevelopment: false,
+      },
+    },
   ],
 };

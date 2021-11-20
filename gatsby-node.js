@@ -1,13 +1,6 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
-const toKebabCase = (str) => {
-  return str
-    .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-    .map((x) => x.toLowerCase())
-    .join('-');
-};
-
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
@@ -102,7 +95,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   tags.forEach((tag) => {
     createPage({
-      path: `/tags/${toKebabCase(tag.fieldValue)}/`,
+      path: `/tags/${tag.fieldValue}/`,
       component: path.resolve(`./src/templates/tags-template.js`),
       context: {
         tag: tag.fieldValue,
@@ -132,7 +125,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         name: `slug`,
         node,
-        value: `/blog${relativeFilePath}`,
+        value: `/${node.frontmatter.slug}/`, //对标 lumen on creat-node 15-18
       });
     }
 
@@ -172,7 +165,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Frontmatter {
       title: String
-      permalink: String
+      slug: String
       description: String
       date: Date @dateformat
       template: String

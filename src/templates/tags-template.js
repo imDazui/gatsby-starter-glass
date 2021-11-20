@@ -15,7 +15,7 @@ const TagsTemplate = ({ pageContext, data }) => {
     <Layout title={title}>
       <TagsTemplateWrapper>
         <Title>
-          {totalCount} posts tagged "{tag}"
+          有 {totalCount} 篇{tag}相关文章
         </Title>
         <Link
           css={`
@@ -26,7 +26,7 @@ const TagsTemplate = ({ pageContext, data }) => {
           `}
           to="/tags"
         >
-          view all tags
+          查看所有
         </Link>
         <PostList posts={posts} />
 

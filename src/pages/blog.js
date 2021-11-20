@@ -10,7 +10,7 @@ const Blog = ({ data }) => {
   return (
     <Layout title="Blog">
       <HeaderWrapper>
-        <h1>Blog</h1>
+        <h1>文章</h1>
 
         <Link
           css={`
@@ -20,7 +20,7 @@ const Blog = ({ data }) => {
           `}
           to="/tags"
         >
-          view all tags
+          查看所有标签
         </Link>
       </HeaderWrapper>
 

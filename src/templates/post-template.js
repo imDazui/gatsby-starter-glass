@@ -3,6 +3,8 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import styled from 'styled-components';
 import Tags from '../components/tags';
+import Comment from '../components/comment';
+
 
 const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
@@ -14,13 +16,14 @@ const PostTemplate = ({ data }) => {
       title={frontmatter.title}
       description={frontmatter.description || excerpt}
       socialImage={
-        frontmatter.social_image ? frontmatter.social_image.absolutePath : ''
+        frontmatter.profile_image ? frontmatter.profile_image.absolutePath : ''
       }
     >
       <PostWrapper>
         <article>
           <PostTitle>{frontmatter.title}</PostTitle>
-          <PostDate>{frontmatter.date}</PostDate>
+          <PostDate>{frontmatter.date}</PostDate> 
+          ・本文已被阅<span id={frontmatter.slug} class="waline-visitor-count" />次
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
         </article>
@@ -28,19 +31,20 @@ const PostTemplate = ({ data }) => {
         <PostPagination>
           {prev && (
             <div>
-              <span>previous</span>
+              <span>上一篇</span>
               <Link to={prev.fields.slug}> {prev.frontmatter.title}</Link>
             </div>
           )}
 
           {next && (
             <div>
-              <span>next</span>
+              <span>下一篇</span>
               <Link to={next.fields.slug}> {next.frontmatter.title}</Link>
             </div>
           )}
         </PostPagination>
         <Tags tags={frontmatter.tags} />
+        <Comment slug={frontmatter.slug} />
       </PostWrapper>
     </Layout>
   );
@@ -63,7 +67,7 @@ const PostTitle = styled.h1`
 
 const PostDate = styled.span`
   font-size: var(--size-400);
-  padding-top: 1rem;
+  padding-top: 1rrem;
   text-transform: uppercase;
 `;
 
@@ -179,12 +183,16 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
+        slug
         tags
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY-MM-DD")
         description
-        social_image {
+        profile_image {
           absolutePath
         }
       }
@@ -208,4 +216,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+  `;

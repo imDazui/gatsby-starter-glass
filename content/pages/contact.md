@@ -1,6 +1,5 @@
 ---
 title: 'Contact Me'
-permalink: 56644841589753366
 template: 'contact-template'
 ---
 

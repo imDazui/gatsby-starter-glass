@@ -26,16 +26,17 @@ const Header = () => {
 
         <HeaderNavList>
           <HeaderNavListItem>
-            <Link to="/blog">Blog</Link>
+            <Link to="https://inote.xyz/tags/投资/">投资</Link>
           </HeaderNavListItem>
 
           <HeaderNavListItem>
-            <Link to="/about">About</Link>
+           <Link to="https://inote.xyz/tags/创业/">创业</Link>
+          </HeaderNavListItem>
+          
+          <HeaderNavListItem>
+           <Link to="https://inote.xyz/tags/生活/">生活</Link>
           </HeaderNavListItem>
 
-          <HeaderNavListItem>
-            <Link to="/contact">Contact</Link>
-          </HeaderNavListItem>
         </HeaderNavList>
       </HeaderWrapper>
     </StyledHeader>

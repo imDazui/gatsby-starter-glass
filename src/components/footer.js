@@ -8,10 +8,10 @@ const Footer = () => {
     <StyledFooter>
       <FooterWrapper>
         <SocialLinks />
-
+         iNote @ 2021
         <FooterAttribution>
-          Hand-crafted with love by{' '}
-          <a href="https://twitter.com/yinkakun">Yinka Adedire</a>
+          Powered by{' '}
+          <a href="https://www.gatsbyjs.com/">GATSBY</a>
         </FooterAttribution>
       </FooterWrapper>
     </StyledFooter>

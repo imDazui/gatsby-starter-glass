@@ -1,12 +1,10 @@
 ---
-title: About Mee
+title: About
 template: about-template
-permalink: 5664483657814567
-profile_image: /media/profile-image.jpg
+profile_image: /media/about.jpg
 ---
 
-# Hi, I'm John Doe
 
-This website is a live example of a Gatsby Starter — it's not a real blog.
-People using this starter may want to add some information to this page about them or their business.
+
+[iNote](https://inote.xyz/) ——寻求真相，发现价值。
 

@@ -1,9 +1,9 @@
 ---
 template: 'index-template'
-permalink: 56644814785499222
-title: 'Gatsby Starter Glass'
+title: '寻求真相，发现价值'
 ---
 
-#Hello World
+# iNote
 
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+寻求真相，发现价值
+
