@@ -36,10 +36,10 @@ yarn  build
 ## 配置
 
 -  `gatsby-config.js` 中配置网站信息，Google 分析 ID 等。
-- `src/components/header.js`中配置顶部导航栏信息。
-- `src/components/footer.js`中配置底部导航栏信息。
+- `src/components/header.js `中配置顶部导航栏信息。
+- `src/components/footer.js `中配置底部导航栏信息。
 
-- `src/components/comment.js`中配置 Waline 信息。
+- `src/components/comment.js` 中配置 Waline 信息。
 
 ## 文章发布
 
@@ -67,4 +67,4 @@ Gatsby 是基于  reac t的静态网站构建框架，可以用来部署网上�
 
 ## 注意事项
 
-- 本 starter 基于 Gatsby V3，安装插件是注意版本兼容性。
+- 本 starter 基于 Gatsby V3，安装插件时注意版本兼容性。
