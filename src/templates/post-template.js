@@ -41,10 +41,10 @@ const PostTemplate = ({ data }) => {
               <span>下一篇</span>
               <Link to={next.fields.slug}> {next.frontmatter.title}</Link>
             </div>
-          )}
+          )} 
         </PostPagination>
         <Tags tags={frontmatter.tags} />
-        <Comment slug={frontmatter.slug} />
+        <Comment slug={frontmatter.slug} /> 
       </PostWrapper>
     </Layout>
   );

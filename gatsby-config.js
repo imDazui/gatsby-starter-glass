@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `iNote`,
+    title: `热风`,
     author: {
       name: `XiYiZhou`,
       summary: `四野八荒，毕力遐方`,
     },
-    description: `寻求真相，发现价值`,
+    description: `一是之学说，以震其艰深`,
     siteUrl: `https://inote.xyz`,
     social: {
       twitter: `inote_xyz`,

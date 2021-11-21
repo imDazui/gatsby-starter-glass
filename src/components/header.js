@@ -26,15 +26,15 @@ const Header = () => {
 
         <HeaderNavList>
           <HeaderNavListItem>
-            <Link to="https://inote.xyz/tags/投资/">投资</Link>
+            <Link to="https://lu-xun.vercel.app/tags/呐喊/">呐喊</Link>
           </HeaderNavListItem>
 
           <HeaderNavListItem>
-           <Link to="https://inote.xyz/tags/创业/">创业</Link>
+           <Link to="https://lu-xun.vercel.app/tags/彷徨/">彷徨</Link>
           </HeaderNavListItem>
           
           <HeaderNavListItem>
-           <Link to="https://inote.xyz/tags/生活/">生活</Link>
+           <Link to="https://lu-xun.vercel.app/tags/朝花夕拾/">朝花夕拾</Link>
           </HeaderNavListItem>
 
         </HeaderNavList>
