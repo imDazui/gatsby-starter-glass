@@ -2,7 +2,6 @@
 
 利用 Gatsby 构建的个人博客，汉化自 [gatsby-starter-glass](https://github.com/yinkakun/gatsby-starter-glass)。
 
-[示例](https://inote.xyz/)
 
 ![demo site screenshot](./screenshot.jpg)
 
@@ -13,6 +12,9 @@
 * 包含 [Waline](https://waline.js.org) 评论
 * 包含谷歌分析
 * Markdown 编辑
+
+## 案例
+[iNote](https://inote.xyz/)
 
 ## 本地部署
 
