@@ -58,7 +58,7 @@ tags:
 description: 由于 Waline 还没有 Gatsby 组件，通过安装 Waline 客户端库，创建 React 组件，并在合适的位置引入组件，在 gatsby 站点上添加 waline 评论功能。
 ---
 
-Gatsby 是基于  reac t的静态网站构建框架，可以用来部署网上商城、官网和博客，利用丰富的插件可以实现图片懒加载、Markdown 文档支持、访客评论等功能。Gatsby 官方推荐的评论系统有 Disqus、Gitalk 等。
+Gatsby 是基于  react 的静态网站构建框架，可以用来部署网上商城、官网和博客，利用丰富的插件可以实现图片懒加载、Markdown 文档支持、访客评论等功能。Gatsby 官方推荐的评论系统有 Disqus、Gitalk 等。
 ```
 
 ### 页面
