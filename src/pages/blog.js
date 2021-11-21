@@ -60,7 +60,7 @@ export const homePageQuery = graphql`
         excerpt
         timeToRead
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "YYYY-MM-DD")
           description
           title
           tags
