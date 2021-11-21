@@ -3,7 +3,7 @@
 利用 Gatsby 构建的个人博客，汉化自 [gatsby-starter-glass](https://github.com/yinkakun/gatsby-starter-glass)。
 
 
-![demo site screenshot](./screenshot.jpg)
+![demo site screenshot](/media/screenshot.jpg)
 
 ## 特色
 
