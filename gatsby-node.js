@@ -125,7 +125,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         name: `slug`,
         node,
-        value: `/${node.frontmatter.slug}/`, //对标 lumen on creat-node 15-18
+        value: `/${node.frontmatter.slug}`,
       });
     }
 
