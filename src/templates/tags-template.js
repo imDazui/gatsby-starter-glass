@@ -37,7 +37,7 @@ const TagsTemplate = ({ pageContext, data }) => {
           `}
           to="/tags"
         >
-          浏览所有文章
+          查看全部标签
         </StyledLink>
       </TagsTemplateWrapper>
     </Layout>
