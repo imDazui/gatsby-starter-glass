@@ -37,7 +37,7 @@ body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 a:not([class]) {
